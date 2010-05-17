@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Data-ES-Senado
-version:            0.0.4
+version:            0.0.5
 abstract:           Clase base para representar los datos del Senado español
 author:
     - JJ Merelo <jj@merelo.net>
@@ -12,6 +12,7 @@ build_requires:
     ExtUtils::MakeMaker:  0
 requires:
     DBIx::Class:  0
+    File::Slurp:  0
     Test::More:   0
     version:      0
     YAML:         0
