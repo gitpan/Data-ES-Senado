@@ -156,8 +156,8 @@ los siguientes campos
 | lugar_nacimiento | varchar(64)                | NO   |     | NULL    |                | 
 | estado_civil     | varchar(64)                | NO   |     | NULL    |                | 
 | fecha_nacimiento | date                       | NO   |     | NULL    |                | 
+| alta             | date                       | NO   |     | NULL    |                | 
 +------------------+----------------------------+------+-----+---------+----------------+
-
 
 =head1 INTERFACE 
 

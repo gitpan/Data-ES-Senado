@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Data-ES-Senado
-version:            0.0.5
+version:            0.0.6
 abstract:           Clase base para representar los datos del Senado español
 author:
     - JJ Merelo <jj@merelo.net>

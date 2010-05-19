@@ -1,10 +1,12 @@
 package Data::ES::Senado;
 
+use utf8;
+
 use warnings;
 use strict;
 use Carp;
 
-use version; our $VERSION = qv('0.0.5');
+use version; our $VERSION = qv('0.0.6');
 
 # Other recommended modules (uncomment to use):
 #  use IO::Prompt;
@@ -200,8 +202,7 @@ debe estar funcionando.
 =head1 DEPENDENCIES
 
 Base de datos Mysql. Como usa enum, no puede usar SQLite (aunque
-estaría bien tener una versión)
-
+estaría bien tener una versión para esta).
 
 =head1 INCOMPATIBILITIES
 
@@ -215,11 +216,15 @@ Please report any bugs or feature requests to
 C<bug-es-senado@rt.cpan.org>, or through the web interface at
 L<http://rt.cpan.org>.
 
+=head1 SEE ALSO
+
+Este programa se ha usado para extraer los datos en la pagina de
+Senado.info L<http://sena2.info>, formando parte del Desafio Abredatos
+2010 L<http://abredatos.es>
 
 =head1 AUTHOR
 
 JJ Merelo  C<< <jj@merelo.net> >>
-
 
 =head1 LICENCE AND COPYRIGHT
 

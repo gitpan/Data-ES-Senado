@@ -1,5 +1,7 @@
 package Data::ES::Senado::Result::Actividades;
 
+use utf8;
+
 use warnings;
 use strict;
 use Carp;
