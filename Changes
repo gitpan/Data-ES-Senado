@@ -1,3 +1,8 @@
+2010-05-20    <jmerelo@localhost.localdomain>
+
+	* lib/Data/ES/Senado.pm: Empezando 0.0.7 corrigiendo la
+	codificacion del la documentacion. 
+
 2010-05-19    <jmerelo@localhost.localdomain>
 
 	* Makefile.PL: Actualizando dependencias; faltaba

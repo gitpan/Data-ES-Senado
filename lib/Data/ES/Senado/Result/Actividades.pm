@@ -53,6 +53,8 @@ __END__
 
 =head1 NAME
 
+=encoding utf8
+
 Data::ES::Senado::Result::Actividades - Actividades de senadores
 
 
